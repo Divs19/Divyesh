@@ -10,7 +10,7 @@
 3. cd 'Dir B'/
 4. DirA uses a better naming convention because spaces create confusion and gives unexpected results.
 5. cd mkdir 
-   DirBcd
+   DirB
    
    mv 'Dir b' 'DirB'
 
@@ -36,18 +36,20 @@ Hope everything is fine1
 
 1. cp test.txt .hiddentext.txtmkdircd
 2. ls -ld .* (to show hidden files).
-    ls ..( to show contents of the file directory).
+    ls -lah( to show contents of the file directory).
 
 ## Part 4 Answers
 
-1. 
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+1. sudo adduser bob
+2.  su bob
+    cd ~
+3.  yes, beacause user is still the admin and for bob to to add or edit the files user needs to add bobo to the admin group 
+4. su -bob
+5. pwd
+6. no, bob cannot add files untill user add bob to the admin group or make him an admin.
+7.  cd/home/divyeshishvarambaliya
+8. 
+9.
 
 ## Part 5 Answers
 
