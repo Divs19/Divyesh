@@ -38,29 +38,37 @@ Hope everything is fine1
 ## Part 4 Answers
 
 1. sudo adduser bob
-2.  cd /bob
-3.  yes, beacause user is still the admin and for bob to to add or edit the files user needs to add bobo to the admin group 
-4. su -bob
+2. /home/bob
+3. No, beacause user is still the admin and for bob to to add or edit the files user needs to add bobo to the admin group 
+4. su - bob
 5. cd /home/bob
-6. no, bob cannot add files untill user add bob to the admin group or make him an admin.
-7.  cd ..
-8.  exit.
+6. yes, bob can add files because we are in bob's home directory so bob can add files.
+7. su - divyeshishvarambaliya
+8. cd ..
 
 
 ## Part 5 Answers
 
-1.
-2.
-3.
-4.
-5.
-6.
+1. sudo addgroup crew
+2. usermod -a -g crew bob
+   usermod -a -g crew divyeshishvarambaliya
+3. sudo chgrp crew DirA
+4. su - bob
+5. cd ..
+   cd divyeshishvarambaliya
+   cd DirA 
+   touch bobtest.txt
+ 6. Beacuse we added DirA to the crew group which can be accessed by both the group.
+
+
 
 ## Part 6 Answers
 
-1.
-2.
-3.
+1. su - divyeshishvarambaliya
+   sudo touch sudowho.txt
+2. -rw-r--r--
+3. when you use command sudo file is created by root directory so there is readonly file so no contents can be added.   
+
 
 ## Extra Credit
 
