@@ -72,6 +72,17 @@ Hope everything is fine1
 
 ## Extra Credit
 
-1.
-2.
+1.cd DirB
+  touch mydairy.text
+  vim dairy.text (add content for unique size)
+  we want that in the user sally so..
+  sudo adduser sally
+  sudo addgroup crew
+  sudo usermod -a -G crew sally
+   
+ 
+
+2. su -sally
+   c
+   
 3.
